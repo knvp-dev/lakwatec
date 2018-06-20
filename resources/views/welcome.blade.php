@@ -1,78 +1,58 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Lakwatec.be</title>
+@section('content')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+<section class="section has-text-centered">
+    <div class="container">
+        <h1 class="title">Lakwatec</h1>
+        <h2 class="subtitle mb-20">rsdfq</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam assumenda quasi, reiciendis pariatur dignissimos dolorum blanditiis ducimus corrupti dolore excepturi, suscipit veritatis. Perferendis ab laborum consequatur natus asperiores praesentium.
+        </p>
+    </div>
+</section>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            
-
-            <div class="content">
-                <div class="title m-b-md">
-                    <img src="/images/logo.png" alt="">
+<section class="section has-text-centered">
+    <div class="container item-columns">
+        <div class="columns is-multiline is-mobile is-centered is-gapless">
+            <div class="column">
+                <div class="icon-item">
+                    <img src="/images/icons/pump.png" alt="">
+                    <span class="icon-item-text">Pompinstallaties</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="icon-item">
+                    <img src="/images/icons/drill.png" alt="">
+                    <span class="icon-item-text">Boorputten</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="icon-item">
+                    <img src="/images/icons/sprinkler.png" alt="">
+                    <span class="icon-item-text">Beregeningsinstallaties Particulier</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="icon-item">
+                    <img src="/images/icons/garden-hose.png" alt="">
+                    <span class="icon-item-text">Beregeningsinstallaties landbouw</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="icon-item">
+                    <img src="/images/icons/hose.png" alt="">
+                    <span class="icon-item-text">Water & gierslangen</span>
+                </div>
+                </div>
+            <div class="column">
+                <div class="icon-item">
+                    <img src="/images/icons/welding.png" alt="">
+                    <span class="icon-item-text">PE Lassen</span>
                 </div>
             </div>
         </div>
-    </body>
-</html>
+    </div>
+</section>
+
+@endsection
