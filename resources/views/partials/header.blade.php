@@ -2,8 +2,7 @@
 	<div class="container">
 		<div class="navbar-start">
 			<a class="navbar-item" href="/">
-				<!-- <img src="images/logo.png" width="100%" height="150" alt="Akcelon"> -->
-                <h1>Lakwatec</h1>
+				<img src="images/logo.png" height="30" alt="Lakwatec">
 			</a>
 		</div>
 

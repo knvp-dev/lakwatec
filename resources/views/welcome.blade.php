@@ -2,13 +2,15 @@
 
 @section('content')
 
-<section class="section has-text-centered">
+<section class="section has-text-centered has-blue-background-image">
     <div class="container">
-        <h1 class="title">Lakwatec</h1>
-        <h2 class="subtitle mb-20">rsdfq</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam assumenda quasi, reiciendis pariatur dignissimos dolorum blanditiis ducimus corrupti dolore excepturi, suscipit veritatis. Perferendis ab laborum consequatur natus asperiores praesentium.
-        </p>
+        <div class="intro">
+            <h1 class="title has-white-bg">Lakwatec</h1>
+            <!-- <h2 class="subtitle mb-20">rsdfq</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam assumenda quasi, reiciendis pariatur dignissimos dolorum blanditiis ducimus corrupti dolore excepturi, suscipit veritatis. Perferendis ab laborum consequatur natus asperiores praesentium.
+            </p> -->
+        </div>
     </div>
 </section>
 

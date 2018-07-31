@@ -15,23 +15,43 @@
 @import "overwrite";
 
 *{
-	font-family: 'Open Sans';
+	font-family: 'Raleway';
 }
 
 body, html {
 	height: 100%;
 }
 
+@media screen and (min-width: 1024px){
+  .navbar-item img {
+      max-height: 2.2em;
+  }
+}
+
 .navbar-item{
-	font-weight: bolder;
+	font-weight: light;
 }
 
 section.section{
 	margin-bottom:50px;
 }
 
+.navbar{
+  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+}
+
 .mb-20{
   margin-bottom:20px;
+}
+
+.p-0{
+  padding:0!important;
+}
+
+.w100{
+  width:100%;
 }
 
 .item-columns{
@@ -50,7 +70,7 @@ section.section{
   align-items:center;
   justify-content: space-evenly;
   padding:20px;
-  // background-color:#E4E3DC;
+
    >img{
     height: auto;
     max-width: 100%;
@@ -68,11 +88,47 @@ section.section{
   font-size:1.5em;
 }
 
+.has-pattern-background{
+  background-image:url('/images/patterns/what-the-hex.png');
+}
+
 .intro{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   >img{
     opacity:.8;
     width:50px;
   }
+  >h1{
+    width: max-content;
+  }
+}
+
+.mt-0{
+  margin-top:0!important;
+}
+
+.mb-0{
+  margin-bottom:0!important;
+}
+
+.is-white{
+  color:white;
+}
+
+.has-blue-background-image{
+  background-image:url('/images/bg.png');
+  background-size:contain;
+  color:white;
+}
+
+.has-white-bg{
+    border-radius:45px;
+    background-color:rgba(255,255,255,.6);
+    padding:10px 20px;
+    display:flex;
 }
 
 @media (max-width:1023px) {
