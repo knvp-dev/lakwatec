@@ -33,17 +33,24 @@
             </div>
             <div class="column">
                 <div class="icon-item">
-                    <a href="{{ route('water-en-gierslangen') }}">
-                        <img src="/images/icons/hose.png" alt="">
-                        <span class="icon-item-text">Water & gierslangen</span>
+                    <a href="{{ route('beregeningen')"></a>
+                    <img src="/images/icons/garden-hose.png" alt="">
+                    <span class="icon-item-text">Beregeningsinstallaties landbouw</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="icon-item">
+                <a href="{{ route('water-en-gierslangen')">
+                    <img src="/images/icons/hose.png" alt="">
+                    <span class="icon-item-text">Water & gierslangen</span>
                     </a>
                 </div>
                 </div>
             <div class="column">
                 <div class="icon-item">
-                    <a href="{{ route('pe-lassen') }}">
-                        <img src="/images/icons/welding.png" alt="">
-                        <span class="icon-item-text">PE Lassen</span>
+                <a href="{{ route('pe-lassen')">
+                    <img src="/images/icons/welding.png" alt="">
+                    <span class="icon-item-text">PE Lassen</span>
                     </a>
                 </div>
             </div>
