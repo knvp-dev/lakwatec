@@ -36,6 +36,7 @@
                     <a href="{{ route('beregeningen')"></a>
                     <img src="/images/icons/garden-hose.png" alt="">
                     <span class="icon-item-text">Beregeningsinstallaties landbouw</span>
+                    </a>
                 </div>
             </div>
             <div class="column">
