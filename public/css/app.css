@@ -14660,7 +14660,7 @@ section.section {
   padding: 20px;
 }
 
-.icon-item > img {
+.icon-item > a > img {
   height: auto;
   max-width: 100%;
   width: 70px;
@@ -14669,7 +14669,7 @@ section.section {
   margin-bottom: 10px;
 }
 
-.icon-item > span {
+.icon-item > a > span {
   font-weight: bolder;
   text-transform: uppercase;
 }

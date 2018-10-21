@@ -71,14 +71,14 @@ section.section{
   justify-content: space-evenly;
   padding:20px;
 
-   >img{
+   >a>img{
     height: auto;
     max-width: 100%;
     width:70px;
     align-self: center;
     margin-bottom:10px;
    }
-   >span{
+   >a>span{
      font-weight:bolder;
      text-transform:uppercase;
    }
