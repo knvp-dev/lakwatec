@@ -14660,7 +14660,7 @@ section.section {
   padding: 20px;
 }
 
-.icon-item > a > img {
+.icon-item > img {
   height: auto;
   max-width: 100%;
   width: 70px;
@@ -14669,9 +14669,14 @@ section.section {
   margin-bottom: 10px;
 }
 
-.icon-item > a > span {
+.icon-item > span {
   font-weight: bolder;
   text-transform: uppercase;
+  color: #424242;
+}
+
+.icon-item:hover {
+  opacity: .5;
 }
 
 .fs-15 {

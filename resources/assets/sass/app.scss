@@ -71,17 +71,22 @@ section.section{
   justify-content: space-evenly;
   padding:20px;
 
-   >a>img{
+   >img{
     height: auto;
     max-width: 100%;
     width:70px;
     align-self: center;
     margin-bottom:10px;
    }
-   >a>span{
+   >span{
      font-weight:bolder;
      text-transform:uppercase;
+     color:#424242;
    }
+}
+
+.icon-item:hover{
+    opacity:.5;
 }
 
 .fs-15{
