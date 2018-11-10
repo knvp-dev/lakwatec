@@ -214,3 +214,9 @@ section.section{
 .flex{
   display:flex;
 }
+
+.has-text-centered{
+  text-align:center;
+  margin:0 auto;
+  justify-content: center;
+}

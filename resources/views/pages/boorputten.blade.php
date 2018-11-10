@@ -16,12 +16,9 @@
 
 <section class="section has-text-centered">
     <div class="container">
-        <p>Terug zandvrij maken van boorputten/ kelderputten.
-Totaalconcept wordt geleverd dit van boring tot pompinstallatie, waterstaal en indien nodig een zuivering. </p><br>
-<p class="is-fat">Door de nauwe samenwerking met verschillende erkende boorbedrijven kunnen we de best mogelijke oplossing bieden voor uw regio.</p> <br>
-	<p>Opvullen van boorputten in samenwerking met erkende boorbedrijven.
-	Wettelijk in orde stellen van boorputten volgens normen van de VWM.
-        </p>
+        <p>Plaatsen, wettelijk verdichten, terug zandvrij maken en in orde stellen van boorputten volgens normen van de VWM.
+Totaalconcept wordt geleverd dit van boring tot pompinstallatie en zuivering, waterstaal en indien nodig een zuivering. </p><br>
+<p class="is-fat">Door de nauwe samenwerking met verschillende erkende boorbedrijven kunnen we de best mogelijke oplossing bieden voor uw regio.</p>
     </div>
 </section>
 

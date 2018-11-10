@@ -14819,3 +14819,11 @@ section.section {
   display: flex;
 }
 
+.has-text-centered {
+  text-align: center;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
