@@ -5,7 +5,10 @@
 
 
 <section class="section has-text-centered">
-    <div class="container item-columns">
+    <div class="container" style="
+    display: flex;
+    justify-content: center;
+">
         <div class="columns is-multiline is-mobile is-centered is-gapless">
             <div class="column">
             <a href="{{ route('pompinstallaties') }}">
