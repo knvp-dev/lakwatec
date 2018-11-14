@@ -6,6 +6,10 @@
 			</a>
 		</div>
 
+		<div class="mobile-toggle" @click="toggleMobile">
+		<i class="fa fa-bars"></i>
+		</div>
+
 		<div class="navbar-end">
 			<a class="navbar-item" href="{{ route('pompinstallaties') }}">
 				Pompinstallaties

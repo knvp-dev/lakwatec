@@ -28,9 +28,9 @@
 
 <div class="container">
 
-    <div class="flex">
+    <div class="cards">
 
-        <section class=" has-text-centered is-half">
+        <section class="has-text-centered is-half">
             <div class="card">
                 <img class="card-image" src="/images/staafpompen.png" alt="">
                 <div class="card-content">
@@ -66,10 +66,6 @@
             </div>
         </section>
 
-            </div>
-
-<div class="flex">
-
         <section class=" has-text-centered is-half">
             <div class="card">
                 <img class="card-image" src="/images/dompelpomp.png" alt="">
@@ -79,8 +75,6 @@
                 </div>
             </div>
         </section>
-
-    
 
         <section class=" has-text-centered is-half">
             <div class="card">
@@ -95,7 +89,7 @@
         
     </div>
 
-    
+    <div class="clear-fix"></div>
 
 </div>
 

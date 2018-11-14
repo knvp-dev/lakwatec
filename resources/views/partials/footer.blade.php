@@ -8,7 +8,9 @@
 				Vanthournout Frederik <br>
 				Westkantstraat 66 <br>
 				8020 Ruddervoorde <br>
+				BE0698.907.269 <br>
 				+32 (0)472 97 03 82 <br>
+				info@lakwatec.be <br>
 				</p>
 			</div>
 			<!-- <h2 class="subtitle mt-50 has-text-centered">

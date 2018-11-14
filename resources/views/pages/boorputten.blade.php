@@ -14,11 +14,16 @@
 
 <div class="container">
 
-<section class="section has-text-centered">
+<section class="section is-centered">
     <div class="container">
-        <p>Plaatsen, wettelijk verdichten, terug zandvrij maken en in orde stellen van boorputten volgens normen van de VWM.
-Totaalconcept wordt geleverd dit van boring tot pompinstallatie en zuivering, waterstaal en indien nodig een zuivering. </p><br>
-<p class="is-fat">Door de nauwe samenwerking met verschillende erkende boorbedrijven kunnen we de best mogelijke oplossing bieden voor uw regio.</p>
+        <ul>
+            <li class="m-20"><i class="fa fa-check mr-20"></i><span>Totaalconcept van boring tot en met pompinstallatie</span></li>
+            <li class="m-20"><i class="fa fa-check mr-20"></i><span>Zuiverings- en ontijzeringsinstallaties</span></li>
+            <li class="m-20"><i class="fa fa-check mr-20"></i><span>Zandvrij maken van boorputten (kelderputten)</span></li>
+            <li class="m-20"><i class="fa fa-check mr-20"></i><span>Wettelijk verdichten van boorputten met attest</span></li>
+            <li class="m-20"><i class="fa fa-check mr-20"></i><span>Wettelijk afstellen van de boorput volgens de VLAREM wetgeving</span></li>
+        </ul>
+
     </div>
 </section>
 

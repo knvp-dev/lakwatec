@@ -24,7 +24,7 @@ body, html {
 
 @media screen and (min-width: 1024px){
   .navbar-item img {
-      max-height: 2.2em;
+      //max-height: 2.2em;
   }
 }
 
@@ -136,6 +136,10 @@ section.section{
     display:flex;
 }
 
+.beregening{
+  display:flex;
+}
+
 @media (max-width:1023px) {
 
 	.navbar{
@@ -182,11 +186,68 @@ section.section{
 }
 
 .card{
-  margin:20px;
   padding:20px;
-  width:100%;
+  width:33.33%;
   box-shadow:none;
+  float:left;
+}
+
+.w-50{
+  width:50%;
+  >div{
+    float:left;
+  }
+}
+
+.is-menu-mobile{
+  background-color:#e6e6e6;
+  >a{
+    padding:20px;
+  }
+}
+
+@media(max-width:1092px){
+  .mobile-toggle{
+    display:block!important;
+  }
+}
+
+.is-centered{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.mr-20{
+  margin-right:20px;
+}
+
+m-20{
+  margin:20px;
+}
+
+@media(max-width:768px){
   
+  .is-centered{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .beregening{
+    display:block!important;
+  }
+
+  .card{
+    margin:20px;
+    float:none;
+    width:90%;
+    >.card-content{
+      padding-top:20px;
+    }
+  }
+}
+
+.clear-fix{
+  clear:both;
 }
 
 .card-content{
@@ -196,7 +257,16 @@ section.section{
 }
 
 .is-half{
-  width:33.33%;
+  
+}
+
+.mobile-toggle{
+  position: absolute;
+  display:none;
+  right: 20px;
+  top: 40px;
+  font-size: 2em;
+  cursor:pointer;
 }
 
 .product-image{
