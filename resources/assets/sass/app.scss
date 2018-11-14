@@ -1,14 +1,292 @@
-
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Rochester");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Patua+One|Roboto");
 
 // Variables
 @import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+/*@import "~bootstrap-sass/assets/stylesheets/bootstrap";*/
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// Bulma
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+@import "node_modules/bulma/bulma.sass";
+@import "overwrite";
+
+*{
+	font-family: 'Raleway';
+}
+
+body, html {
+	height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+  .navbar-item img {
+      //max-height: 2.2em;
+  }
+}
+
+.navbar-item{
+	font-weight: light;
+}
+
+section.section{
+	margin-bottom:50px;
+}
+
+.navbar{
+  box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.1);
+}
+
+.mb-20{
+  margin-bottom:20px;
+}
+
+.p-0{
+  padding:0!important;
+}
+
+.w100{
+  width:100%;
+}
+
+.item-columns{
+  max-width:1024px;
+}
+
+.column{
+  flex-grow:0;
+}
+
+.icon-item{
+  height:250px;
+  width:300px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-evenly;
+  padding:20px;
+
+   >img{
+    height: auto;
+    max-width: 100%;
+    width:70px;
+    align-self: center;
+    margin-bottom:10px;
+   }
+   >span{
+     font-weight:bolder;
+     text-transform:uppercase;
+     color:#424242;
+   }
+}
+
+.icon-item:hover{
+    opacity:.5;
+}
+
+.fs-15{
+  font-size:1.5em;
+}
+
+.has-pattern-background{
+  background-image:url('/images/patterns/what-the-hex.png');
+}
+
+.intro{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  >img{
+    opacity:.8;
+    width:50px;
+  }
+  >h1{
+    width: max-content;
+  }
+}
+
+.mt-0{
+  margin-top:0!important;
+}
+
+.mb-0{
+  margin-bottom:0!important;
+}
+
+.is-white{
+  color:white;
+}
+
+.has-blue-background-image{
+  background-image:url('/images/bg.png');
+  background-size:contain;
+  color:white;
+}
+
+.has-white-bg{
+    border-radius:45px;
+    background-color:rgba(255,255,255,.6);
+    padding:10px 20px;
+    display:flex;
+}
+
+.beregening{
+  display:flex;
+}
+
+@media (max-width:1023px) {
+
+	.navbar{
+		position:relative!important;
+		min-height:8rem;
+	}
+
+	.navbar-end{
+		display:none;
+	}
+
+	.card-content {
+		padding: 0; 
+	}
+
+	hr{
+		display:none;
+	}
+
+	.navbar-item img {
+		max-height: 4.75rem;
+		margin-top:15px;
+		width:250px;
+	}
+
+}
+
+.m-20{
+  margin:20px;
+}
+
+.is-fat{
+  font-weight: bold;
+}
+
+.card-image{
+  max-height:300px;
+  height:300px;
+  margin:0 auto;
+  display:block;
+  padding-bottom:20px;
+  border-bottom:1px solid #e6e6e6;
+  object-fit: contain;
+}
+
+.card{
+  padding:20px;
+  width:33.33%;
+  box-shadow:none;
+  float:left;
+}
+
+.w-50{
+  width:50%;
+  >div{
+    float:left;
+  }
+}
+
+.is-menu-mobile{
+  background-color:#e6e6e6;
+  >a{
+    padding:20px;
+  }
+}
+
+@media(max-width:1092px){
+  .mobile-toggle{
+    display:block!important;
+  }
+}
+
+.is-centered{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.mr-20{
+  margin-right:20px;
+}
+
+m-20{
+  margin:20px;
+}
+
+@media(max-width:768px){
+  
+  .is-centered{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .beregening{
+    display:block!important;
+  }
+
+  .card{
+    margin:20px;
+    float:none;
+    width:90%;
+    >.card-content{
+      padding-top:20px;
+    }
+  }
+}
+
+.clear-fix{
+  clear:both;
+}
+
+.card-content{
+  >h1{
+    font-weight:bold;
+  }
+}
+
+.is-half{
+  
+}
+
+.mobile-toggle{
+  position: absolute;
+  display:none;
+  right: 20px;
+  top: 40px;
+  font-size: 2em;
+  cursor:pointer;
+}
+
+.product-image{
+  width:100%!important;
+  height:300px;
+  overflow:hidden;
+  padding:20px;
+}
+
+.product-info{
+  padding:20px;
+  border-left:1px solid #e6e6e6;
+}
+
+.flex{
+  display:flex;
+}
+
+.has-text-centered{
+  text-align:center;
+  margin:0 auto;
+  justify-content: center;
 }
