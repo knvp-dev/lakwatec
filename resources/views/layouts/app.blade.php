@@ -6,6 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="981gDB7-ftX3n9Oh5guH99WeB9WYMfeZE85VcbfE5wQ" />
         <title>Lakwatec.be</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118882250-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118882250-2');
+</script>
 
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
         <!-- Fonts -->
