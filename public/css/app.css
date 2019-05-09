@@ -14621,6 +14621,10 @@ section.section {
   padding: 0 !important;
 }
 
+.mb-10 {
+  margin-bottom: 10px;
+}
+
 .w100 {
   width: 100%;
 }
